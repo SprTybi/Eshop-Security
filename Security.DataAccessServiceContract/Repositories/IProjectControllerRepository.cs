@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Security.DataAccessServiceContract.Repositories
 {
-    public interface IProjectController
+    public interface IProjectControllerRepository
     {
+
     }
 }
