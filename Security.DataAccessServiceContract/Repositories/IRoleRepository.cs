@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Security.DataAccessServiceContract.Repositories
 {
-    public interface IRoleRepository : IBaseRepositorySearchable<Role, int, Role, RoleListItem>
+    public interface IRoleRepository : IBaseRepositorySearchable<Role, int, RoleSearchModel, RoleListItem>
     {
 
     }
