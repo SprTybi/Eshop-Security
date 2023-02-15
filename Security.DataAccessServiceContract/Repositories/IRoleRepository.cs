@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Security.DataAccessServiceContract.Repositories
 {
-    public interface IRoleRepository
+    public interface IRoleRepository : IBaseRepositorySearchable<Role, int, Role, UserListItem>
     {
     }
 }
