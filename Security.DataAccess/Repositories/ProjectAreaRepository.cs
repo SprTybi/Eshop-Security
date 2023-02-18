@@ -129,5 +129,11 @@ namespace Security.DataAccess.Repositories
                 return op;
             }
         }
+
+        public bool ExistAreaName(string AreaName)
+        {
+            return db.ProjectAreas.Any(x => x.AreaName == AreaName);
+
+        }
     }
 }

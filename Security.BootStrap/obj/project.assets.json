@@ -598,6 +598,60 @@
           }
         }
       },
+      "Security.Bussiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Security.BussinessServiceContract": "1.0.0",
+          "Security.DataAccessServiceContract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Security.Bussiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Security.Bussiness.dll": {}
+        }
+      },
+      "Security.BussinessServiceContract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Security.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Security.BussinessServiceContract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Security.BussinessServiceContract.dll": {}
+        }
+      },
+      "Security.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Security.DataAccessServiceContract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Security.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Security.DataAccess.dll": {}
+        }
+      },
+      "Security.DataAccessServiceContract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Security.Domain": "1.0.0",
+          "Shopping.DataAcceServiceContract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Security.DataAccessServiceContract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Security.DataAccessServiceContract.dll": {}
+        }
+      },
       "Security.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -611,6 +665,33 @@
         },
         "runtime": {
           "bin/placeholder/Security.Domain.dll": {}
+        }
+      },
+      "Shopping.DataAcceServiceContract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Shopping.DomainModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shopping.DataAcceServiceContract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shopping.DataAcceServiceContract.dll": {}
+        }
+      },
+      "Shopping.DomainModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.11"
+        },
+        "compile": {
+          "bin/placeholder/Shopping.DomainModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shopping.DomainModel.dll": {}
         }
       }
     }
@@ -1778,16 +1859,50 @@
         "version.txt"
       ]
     },
+    "Security.Bussiness/1.0.0": {
+      "type": "project",
+      "path": "../Security.Bussiness/Security.Bussiness.csproj",
+      "msbuildProject": "../Security.Bussiness/Security.Bussiness.csproj"
+    },
+    "Security.BussinessServiceContract/1.0.0": {
+      "type": "project",
+      "path": "../Security.BussinessServiceContract/Security.BussinessServiceContract.csproj",
+      "msbuildProject": "../Security.BussinessServiceContract/Security.BussinessServiceContract.csproj"
+    },
+    "Security.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Security.DataAccess/Security.DataAccess.csproj",
+      "msbuildProject": "../Security.DataAccess/Security.DataAccess.csproj"
+    },
+    "Security.DataAccessServiceContract/1.0.0": {
+      "type": "project",
+      "path": "../Security.DataAccessServiceContract/Security.DataAccessServiceContract.csproj",
+      "msbuildProject": "../Security.DataAccessServiceContract/Security.DataAccessServiceContract.csproj"
+    },
     "Security.Domain/1.0.0": {
       "type": "project",
       "path": "../Security.Domain/Security.Domain.csproj",
       "msbuildProject": "../Security.Domain/Security.Domain.csproj"
+    },
+    "Shopping.DataAcceServiceContract/1.0.0": {
+      "type": "project",
+      "path": "../Shopping.DataAcceServiceContract/Shopping.DataAcceServiceContract.csproj",
+      "msbuildProject": "../Shopping.DataAcceServiceContract/Shopping.DataAcceServiceContract.csproj"
+    },
+    "Shopping.DomainModel/1.0.0": {
+      "type": "project",
+      "path": "../Shopping.DomainModel/Shopping.DomainModel.csproj",
+      "msbuildProject": "../Shopping.DomainModel/Shopping.DomainModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.13",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
+      "Security.Bussiness >= 1.0.0",
+      "Security.BussinessServiceContract >= 1.0.0",
+      "Security.DataAccess >= 1.0.0",
+      "Security.DataAccessServiceContract >= 1.0.0",
       "Security.Domain >= 1.0.0"
     ]
   },
@@ -1818,6 +1933,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.BussinessServiceContract\\Security.BussinessServiceContract.csproj": {
+              "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.BussinessServiceContract\\Security.BussinessServiceContract.csproj"
+            },
+            "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Bussiness\\Security.Bussiness.csproj": {
+              "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Bussiness\\Security.Bussiness.csproj"
+            },
+            "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccessServiceContract\\Security.DataAccessServiceContract.csproj": {
+              "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccessServiceContract\\Security.DataAccessServiceContract.csproj"
+            },
+            "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccess\\Security.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccess\\Security.DataAccess.csproj"
+            },
             "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Domain\\Security.Domain.csproj": {
               "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Domain\\Security.Domain.csproj"
             }

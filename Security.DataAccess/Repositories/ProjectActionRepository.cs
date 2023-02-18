@@ -1,5 +1,6 @@
 ﻿using Security.DataAccessServiceContract.Repositories;
 using Security.Domain.DTO.ProjectAction;
+using Security.Domain.DTO.ProjectController;
 using Security.Domain.Models;
 using Shopping.DomainModel.BaseModel;
 using System;
@@ -12,17 +13,7 @@ namespace Security.DataAccess.Repositories
 {
     public class ProjectActionRepository : IProjectActionRepository
     {
-        private ProjectActionListItem ToListItem(ProjectAction PA)
-        {
-            var lstItem = new ProjectActionListItem
-            {
-                ProjectActionID = PA.ProjectActionID,
-                ProjectActionName = PA.ProjectActionName,
-                PersianTitle = PA.PersianTitle,
 
-            };
-            return lstItem;
-        }
         private readonly SecurityContext db;
         public ProjectActionRepository(SecurityContext db)
         {
@@ -39,6 +30,7 @@ namespace Security.DataAccess.Repositories
                     {
                         ProjectActionName = model.ProjectActionName,
                         PersianTitle = model.PersianTitle,
+
                     };
                     db.Add(pa);
                     db.SaveChanges();
@@ -70,22 +62,22 @@ namespace Security.DataAccess.Repositories
             OperationResult op = new OperationResult("Remove", "ProjectActions", id);
             {
                 try
-            {
-                var pa = db.projectActions.FirstOrDefault(x => x.ProjectActionID == id);
-                db.projectActions.Remove(pa);
-                db.SaveChanges();
-                op.ToSuccess(id, "Remove Successfully");
-            }
-            catch (Exception ex)
-            {
+                {
+                    var pa = db.projectActions.FirstOrDefault(x => x.ProjectActionID == id);
+                    db.projectActions.Remove(pa);
+                    db.SaveChanges();
+                    op.ToSuccess(id, "Remove Successfully");
+                }
+                catch (Exception ex)
+                {
 
-                op.ToFail(id, "Delete Failed!" + ex.Message);
+                    op.ToFail(id, "Delete Failed!" + ex.Message);
+                }
+                return op;
             }
-            return op;
+
         }
-            
-        }
-    
+
 
         public List<ProjectActionListItem> Search(ProjectActionSearchModel sm, out int RecordCount)
         {
@@ -111,13 +103,13 @@ namespace Security.DataAccess.Repositories
 
         public OperationResult Update(ProjectActionUpdateModel model)
         {
-            OperationResult op = new OperationResult("Update", "ProjectActions", model.ProjectActionID);
+            OperationResult op = new OperationResult("Update", "ProjectActions");
             try
             {
                 var pa = Get(model.ProjectActionID);
                 pa.ProjectActionName = model.ProjectActionName;
                 pa.PersianTitle = model.PersianTitle;
-             
+
 
                 db.SaveChanges();
                 op.ToSuccess("Update Successfully");
@@ -127,6 +119,22 @@ namespace Security.DataAccess.Repositories
                 op.ToFail("Update Failed!" + ex.Message);
             }
             return op;
+        }
+
+        public bool ExistProjectActionName(string ProjectActionName)
+        {
+            return db.projectActions.Any(x => x.ProjectActionName == ProjectActionName);
+        }
+
+        public List<ProjectControllerDrop> PcDrops()
+        {
+            var q = from item in db.projectControllers select item;
+            return q.Select(x => new ProjectControllerDrop
+            {
+                ProjectControllerID = x.ProjectControllerID,
+                ProjectControllerName = x.ProjectControllerName
+            }).ToList();
+
         }
     }
 }

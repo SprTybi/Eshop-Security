@@ -10,6 +10,7 @@ namespace Security.Domain.DTO.Role
     {
         public int RoleID { get; set; }
         public string RoleName { get; set; }
+        public int UserCount { get; set; }
     }
 }
 

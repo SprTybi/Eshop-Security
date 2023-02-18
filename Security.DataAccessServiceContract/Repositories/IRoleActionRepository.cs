@@ -1,4 +1,5 @@
 ﻿using Security.DataAccessServiceContract.Base;
+using Security.Domain.DTO.ProjectAction;
 using Security.Domain.DTO.Role;
 using Security.Domain.DTO.RoleAction;
 using Security.Domain.Models;
@@ -13,5 +14,7 @@ namespace Security.DataAccessServiceContract.Repositories
 {
     public interface IRoleActionRepository : IBaseRespositorySearchable<RoleAction, int, RoleActionSearchModel, RoleActionListItem,RoleActionUpdateModel, RoleActionAddModel>
     {
+        public List<RoleDrp> RoleDrps();
+        public List<ProjectActionDrop> ProjectActionDrops();
     }
 }

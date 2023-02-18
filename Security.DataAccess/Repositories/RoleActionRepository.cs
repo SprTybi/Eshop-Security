@@ -1,4 +1,6 @@
 ﻿using Security.DataAccessServiceContract.Repositories;
+using Security.Domain.DTO.ProjectAction;
+using Security.Domain.DTO.Role;
 using Security.Domain.DTO.RoleAction;
 using Security.Domain.Models;
 using Shopping.DomainModel.BaseModel;
@@ -12,14 +14,6 @@ namespace Security.DataAccess.Repositories
 {
     public class RoleActionRepository : IRoleActionRepository
     {
-        private RoleActionListItem ToListItem(RoleAction RA)
-        {
-            var lstitm = new RoleActionListItem
-            {
-                RoleActionID = RA.RoleActionID,
-            };
-            return lstitm;
-        }
         private readonly SecurityContext db;
         public RoleActionRepository(SecurityContext db)
         {
@@ -33,7 +27,8 @@ namespace Security.DataAccess.Repositories
                 var ra = new RoleAction
                 {
                     ProjectActionID = model.ProjectActionID,
-                    HasPermission = model.HasPermission
+                    HasPermission = model.HasPermission,
+                    RoleID = model.RoleID,
                 };
                 db.RoleActions.Add(ra);
                 db.SaveChanges();
@@ -77,44 +72,41 @@ namespace Security.DataAccess.Repositories
         {
             var q = from item in db.RoleActions select item;
 
-            if (ProjectActionID == sm.ProjectActionID)
+            if (sm.RoleID != null)
             {
-                if (sm.HasPermission == true)
-                {
-                    q = q.Where(x => x.HasPermission == true);
-                }
-                if (sm.HasPermission == false)
-                {
-                    q = q.Where(x => x.HasPermission == false);
-                }
+                q = q.Where(x => x.RoleID == sm.RoleID);
             }
 
-            if (sm.HasPermission == true)
+            if (sm.RoleActionID != null)
             {
-                q = q.Where(x => x.HasPermission == true);
+                q = q.Where(x => x.RoleActionID == sm.RoleActionID);
             }
-            if (sm.HasPermission == false)
+            if (sm.ProjectActionID != null)
             {
-                q = q.Where(x => x.HasPermission == false);
+                q = q.Where(x => x.ProjectActionID == sm.ProjectActionID);
             }
+
             RecordCount = q.Count();
-            return q.Select(x => new RoleAction
+            return q.Select(x => new RoleActionListItem
             {
-                ProjectActionID = x.ProjectActionID,
+                RoleActionID = x.RoleActionID,
                 HasPermission = x.HasPermission,
+                RoleName = x.Role.RoleName,
+                ProjectActionName = x.ProjectAction.ProjectActionName,
+                ProjectControllerName = x.ProjectAction.ProjectController.ProjectControllerName,
 
             }
-            ).OrderByDescending(x => x.ProjectAreaID).Skip(sm.PageIndex * sm.PageSize).Take(sm.PageSize).ToList();
+            ).Skip(sm.PageIndex * sm.PageSize).Take(sm.PageSize).ToList();
         }
 
         public OperationResult Update(RoleActionUpdateModel model)
         {
-            OperationResult op = new OperationResult("Update", "RoleActions", model.RoleActionID); ;
+            OperationResult op = new OperationResult("Update", "RoleActions");
             try
             {
                 var ra = db.RoleActions.FirstOrDefault(x => x.RoleActionID == model.RoleActionID);
 
-                ra.RoleActionID = model.RoleActionID;
+
                 ra.HasPermission = model.HasPermission;
                 ra.RoleID = model.RoleID;
                 ra.ProjectActionID = model.ProjectActionID;
@@ -126,6 +118,26 @@ namespace Security.DataAccess.Repositories
                 op.ToFail("Update Failed " + ex.Message);
             }
             return op;
+        }
+
+        public List<RoleDrp> RoleDrps()
+        {
+            var q = from item in db.Roles select item;
+            return q.Select(x => new RoleDrp
+            {
+                RoleID = x.RoleID,
+                RoleName = x.RoleName
+            }).ToList();
+        }
+
+        public List<ProjectActionDrop> ProjectActionDrops()
+        {
+            var q = from item in db.projectActions select item;
+            return q.Select(x => new ProjectActionDrop
+            {
+                ProjectActionID = x.ProjectActionID,
+                ProjectActionName = x.ProjectActionName
+            }).ToList();
         }
     }
 }

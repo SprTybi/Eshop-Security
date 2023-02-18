@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 
 namespace Security.Domain.DTO.ProjectController
 {
-    public class ProjectControllerSearchModel: PageModel
+    public class ProjectControllerSearchModel : PageModel
     {
+        public int ProjectControllerID { get; set; }
         public string ProjectControllerName { get; set; }
-        public string PersianTitle { get; set; }        
+        public string PersianTitle { get; set; }
     }
 }
 

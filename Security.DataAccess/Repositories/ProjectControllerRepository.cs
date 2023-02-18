@@ -1,4 +1,5 @@
 ﻿using Security.DataAccessServiceContract.Repositories;
+using Security.Domain.DTO.ProjectArea;
 using Security.Domain.DTO.ProjectController;
 using Security.Domain.Models;
 using Shopping.DomainModel.BaseModel;
@@ -19,16 +20,16 @@ namespace Security.DataAccess.Repositories
             this.db = db;
         }
 
-        private ProjectControllerListItem ToListItem(ProjectController PC)
-        {
-            var lstitm = new ProjectControllerListItem
-            {
-                ProjectControllerID = PC.ProjectControllerID,
-                ProjectControllerName = PC.ProjectControllerName,
-                PersianTitle = PC.PersianTitle
-            };
-            return lstitm;
-        }
+        //private ProjectControllerListItem ToListItem(ProjectController PC)
+        //{
+        //    var lstitm = new ProjectControllerListItem
+        //    {
+        //        ProjectControllerID = PC.ProjectControllerID,
+        //        ProjectControllerName = PC.ProjectControllerName,
+        //        PersianTitle = PC.PersianTitle
+        //    };
+        //    return lstitm;
+        //}
 
         public OperationResult Add(ProjectControllerAddModel model)
         {
@@ -38,7 +39,8 @@ namespace Security.DataAccess.Repositories
                 var PC = new ProjectController
                 {
                     ProjectControllerName = model.ProjectControllerName,
-                    PersianTitle = model.PersianTitle
+                    PersianTitle = model.PersianTitle,
+
                 };
                 db.projectControllers.Add(PC);
                 db.SaveChanges();
@@ -51,6 +53,12 @@ namespace Security.DataAccess.Repositories
             return op;
         }
 
+        public bool ExitsProjectControllerName(string ProjectControllerName)
+        {
+            return db.projectControllers.Any(x => x.ProjectControllerName == ProjectControllerName);
+
+        }
+
         public ProjectController Get(int id)
         {
             return db.projectControllers.FirstOrDefault(x => x.ProjectControllerID == id);
@@ -59,6 +67,16 @@ namespace Security.DataAccess.Repositories
         public List<ProjectController> GetAll()
         {
             return db.projectControllers.ToList();
+        }
+
+        public List<ProjectAreaDrop> ProjectAreaDrps()
+        {
+            var q = from item in db.ProjectAreas select item;
+            return q.Select(x => new ProjectAreaDrop
+            {
+                AreaName = x.AreaName,
+                ProjectAreaID = x.ProjectAreaID
+            }).ToList();
         }
 
         public OperationResult Remove(int id)
@@ -104,6 +122,7 @@ namespace Security.DataAccess.Repositories
                 var pc = db.projectControllers.FirstOrDefault(x => x.ProjectControllerID == model.ProjectControllerID);
                 pc.ProjectControllerName = model.ProjectControllerName;
                 pc.PersianTitle = model.PersianTitle;
+
                 db.SaveChanges();
                 op.ToSuccess(pc.ProjectControllerID, "Update Successfully");
 

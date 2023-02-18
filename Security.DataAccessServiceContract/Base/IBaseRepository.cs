@@ -11,8 +11,8 @@ namespace Security.DataAccessServiceContract.Base
     {
         TModel Get(TKey Id);
         List<TModel> GetAll();
-        OperationResult Add(TModel model);
-        OperationResult Update(TModel model);
+        OperationResult Add(TAddModel model);
+        OperationResult Update(TUpdateModel model);
         OperationResult Delete(TKey Id);
     }
 }

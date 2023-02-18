@@ -1,5 +1,6 @@
 ﻿using Security.DataAccessServiceContract.Base;
 using Security.Domain.DTO.Role;
+using Security.Domain.DTO.User;
 using Security.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,9 @@ namespace Security.DataAccessServiceContract.Repositories
 {
     public interface IRoleRepository : IBaseRepositorySearchable<Role, int, RoleSearchModel, RoleListItem,RoleUpdateModel,RoleAddModel>
     {
+        bool ExistsRoolName(String RoleName);
+        int GetUserCount(int RoleID);
+        List<UserListItem>UserList(int RoleID);
 
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Security.DataAccessServiceContract.Repositories;
 using Security.Domain.BaseModel;
 using Security.Domain.DTO.Role;
+using Security.Domain.DTO.User;
 using Security.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -19,16 +20,6 @@ namespace Security.DataAccess.Repositories
             this.db = db;
         }
 
-        private RoleListItem ToListItem(Role rol)
-        {
-
-            RoleListItem listItem = new RoleListItem
-            {
-                RoleID = rol.RoleID,
-                RoleName = rol.RoleName
-            };
-            return listItem;
-        }
         public OperationResult Add(RoleAddModel model)
         {
             OperationResult op = new OperationResult("Add", "Roles");
@@ -95,11 +86,11 @@ namespace Security.DataAccess.Repositories
 
         public OperationResult Update(RoleUpdateModel model)
         {
-            OperationResult op = new OperationResult("Update", "Roles", model.RoleID);
+            OperationResult op = new OperationResult("Update", "Roles");
             try
             {
                 var r = db.Roles.FirstOrDefault(x=>x.RoleID == model.RoleID);
-                r.RoleID = model.RoleID;
+                
                 r.RoleName = model.RoleName;
                 db.SaveChanges();
                 op.ToSuccess("Update Successfully");
@@ -109,6 +100,32 @@ namespace Security.DataAccess.Repositories
                 op.ToFail("Update Failed " + ex.Message);
             }
             return op;
+        }
+
+        public bool ExistsRoolName(string RoleName)
+        {
+            return db.Roles.Any(x => x.RoleName == RoleName);
+        }
+
+        public int GetUserCount(int RoleID)
+        {
+            return db.Users.Count(x => x.RoleID == RoleID);
+        }
+
+        public List<UserListItem> UserList(int RoleID)
+        {
+            var q = db.Users.Where(x => x.RoleID == RoleID);
+            return q.Select(x => new UserListItem
+            {
+                UserID = x.RoleID,
+                UserName = x.UserName,
+                Password = x.Password,
+                Email = x.Email,
+                Mobile = x.Mobile,
+                FirstName = x.FirstName,
+                LastName = x.LastName,
+                RoleName = x.Role.RoleName
+            }).ToList();
         }
     }
 }

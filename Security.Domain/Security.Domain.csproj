@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DTO\ProjectAction\ProjectAction.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="DTO\ProjectAction\NewFile1.txt" />
+    <None Remove="DTO\ProjectArea\NewFile1.txt" />
+    <None Remove="DTO\ProjectController\NewFile1.txt" />
+    <None Remove="DTO\Role\NewFile1.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.13" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.13">
       <PrivateAssets>all</PrivateAssets>

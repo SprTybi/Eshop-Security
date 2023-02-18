@@ -13,5 +13,6 @@ namespace Security.DataAccessServiceContract.Repositories
 {
     public interface IProjectAreaRepository : Shopping.DataAcceServiceContract.Base.IBaseRespositorySearchable<ProjectArea, int, ProjectAreaSearchModel, ProjectAreaListItem, ProjectAreaUpdateModel, ProjectAreaAddModel>
     {
+        bool ExistAreaName(string AreaName);
     }
 }

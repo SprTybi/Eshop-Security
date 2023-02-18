@@ -28,6 +28,18 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.BussinessServiceContract\\Security.BussinessServiceContract.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.BussinessServiceContract\\Security.BussinessServiceContract.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Bussiness\\Security.Bussiness.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Bussiness\\Security.Bussiness.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccessServiceContract\\Security.DataAccessServiceContract.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccessServiceContract\\Security.DataAccessServiceContract.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccess\\Security.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccess\\Security.DataAccess.csproj"
+              },
               "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Domain\\Security.Domain.csproj": {
                 "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Domain\\Security.Domain.csproj"
               }
@@ -53,6 +65,244 @@
               "version": "[6.0.0, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.BussinessServiceContract\\Security.BussinessServiceContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.BussinessServiceContract\\Security.BussinessServiceContract.csproj",
+        "projectName": "Security.BussinessServiceContract",
+        "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.BussinessServiceContract\\Security.BussinessServiceContract.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.BussinessServiceContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Domain\\Security.Domain.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Domain\\Security.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Bussiness\\Security.Bussiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Bussiness\\Security.Bussiness.csproj",
+        "projectName": "Security.Bussiness",
+        "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Bussiness\\Security.Bussiness.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Bussiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.BussinessServiceContract\\Security.BussinessServiceContract.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.BussinessServiceContract\\Security.BussinessServiceContract.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccessServiceContract\\Security.DataAccessServiceContract.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccessServiceContract\\Security.DataAccessServiceContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccessServiceContract\\Security.DataAccessServiceContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccessServiceContract\\Security.DataAccessServiceContract.csproj",
+        "projectName": "Security.DataAccessServiceContract",
+        "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccessServiceContract\\Security.DataAccessServiceContract.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccessServiceContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Domain\\Security.Domain.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.Domain\\Security.Domain.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Shopping.DataAcceServiceContract\\Shopping.DataAcceServiceContract.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Shopping.DataAcceServiceContract\\Shopping.DataAcceServiceContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccess\\Security.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccess\\Security.DataAccess.csproj",
+        "projectName": "Security.DataAccess",
+        "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccess\\Security.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccessServiceContract\\Security.DataAccessServiceContract.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Security.DataAccessServiceContract\\Security.DataAccessServiceContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -131,6 +381,140 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Shopping.DataAcceServiceContract\\Shopping.DataAcceServiceContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Shopping.DataAcceServiceContract\\Shopping.DataAcceServiceContract.csproj",
+        "projectName": "Shopping.DataAcceServiceContract",
+        "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Shopping.DataAcceServiceContract\\Shopping.DataAcceServiceContract.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Shopping.DataAcceServiceContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Shopping.DomainModel\\Shopping.DomainModel.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Shopping.DomainModel\\Shopping.DomainModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Shopping.DomainModel\\Shopping.DomainModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Shopping.DomainModel\\Shopping.DomainModel.csproj",
+        "projectName": "Shopping.DomainModel",
+        "projectPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Shopping.DomainModel\\Shopping.DomainModel.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\EshopMashtiHasan\\Shopping.DomainModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.11, )"
             }
           },
           "imports": [

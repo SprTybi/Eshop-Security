@@ -11,6 +11,7 @@ namespace Security.Domain.DTO.ProjectController
         public int ProjectControllerID { get; set; }
         public string ProjectControllerName { get; set; }
         public string PersianTitle { get; set; }
+        public int ProjectAreaID { get; set; }
     }
 }
 

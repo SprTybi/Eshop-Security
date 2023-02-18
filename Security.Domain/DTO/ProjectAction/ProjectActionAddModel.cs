@@ -10,6 +10,7 @@ namespace Security.Domain.DTO.ProjectAction
     {
         public string ProjectActionName { get; set; }
         public string PersianTitle { get; set; }        
+             
     }
 }
 

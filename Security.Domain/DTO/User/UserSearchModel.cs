@@ -14,5 +14,6 @@ namespace Security.Domain.DTO.User
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int RoleID { get; set; }
+        public string Mobile { get; set; }
     }
 }

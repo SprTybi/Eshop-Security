@@ -12,6 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Security.BussinessServiceContract\Security.BussinessServiceContract.csproj" />
+    <ProjectReference Include="..\Security.Bussiness\Security.Bussiness.csproj" />
+    <ProjectReference Include="..\Security.DataAccessServiceContract\Security.DataAccessServiceContract.csproj" />
+    <ProjectReference Include="..\Security.DataAccess\Security.DataAccess.csproj" />
     <ProjectReference Include="..\Security.Domain\Security.Domain.csproj" />
   </ItemGroup>
 
