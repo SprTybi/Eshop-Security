@@ -8,6 +8,8 @@ namespace Security.Domain.DTO.Role
 {
     public class RoleUpdateModel
     {
+        public int RoleID { get; set; }
+        public string RoleName { get; set; }
     }
 }
 

@@ -8,6 +8,8 @@ namespace Security.Domain.DTO.ProjectController
 {
     public class ProjectControllerAddModel
     {
+        public string ProjectControllerName { get; set; }
+        public string PersianTitle { get; set; }
     }
 }
 

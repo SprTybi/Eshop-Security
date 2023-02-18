@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Security.DataAccessServiceContract.Base
 {
-    public interface IBaseRepositorySearchable<TModel, TKey, TSearchModel, TListItem> : IBaseRepository<TModel, TKey>
-    {
-        List<TListItem> Search(TSearchModel sm,out int RecordCount);
-    }
+
+   public interface IBaseRespositorySearchable <TModel,TKEY,TSearchModel,TListItem,TUpdateModel,TAddModel>:IBaseRepository<TModel,TKEY, TUpdateModel, TAddModel>
+   {
+       List<TListItem> Search(TSearchModel sm, out int RecordCount);
+   }
 }

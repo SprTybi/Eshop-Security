@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Security.DataAccessServiceContract.Repositories
 {
-    public interface IUserRepository:IBaseRepositorySearchable<User,int,UserSearchModel,UserListItem>
+    public interface IUserRepository : IBaseRepositorySearchable<User, int, UserSearchModel, UserListItem, UserUpdateModel, UserAddModel>
     {
 
     }

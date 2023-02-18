@@ -10,8 +10,6 @@ namespace Security.Domain.DTO.User
     public class UserSearchModel : PageModel
     {
         public string UserName { get; set; }
-        public string Email { get; set; }
-        public string Mobile { get; set; }
         public bool IsEmailActivated { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

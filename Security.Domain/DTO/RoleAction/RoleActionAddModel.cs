@@ -8,5 +8,7 @@ namespace Security.Domain.DTO.RoleAction
 {
     public class RoleActionAddModel
     {
+        public int ProjectActionID { get; set; }
+        public bool HasPermission { get; set; }
     }
 }

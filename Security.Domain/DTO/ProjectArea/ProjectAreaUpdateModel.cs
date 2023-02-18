@@ -8,5 +8,8 @@ namespace Security.Domain.DTO.ProjectArea
 {
     public class ProjectAreaUpdateModel
     {
+        public int ProjectAreaID { get; set; }
+        public string AreaName { get; set; }
+        public string PersianTitle { get; set; }        
     }
 }

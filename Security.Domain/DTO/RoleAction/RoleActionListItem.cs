@@ -8,5 +8,8 @@ namespace Security.Domain.DTO.RoleAction
 {
     public class RoleActionListItem
     {
+        public int RoleActionID { get; set; }
+     
+
     }
 }

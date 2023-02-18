@@ -23,6 +23,7 @@ namespace Shopping.DataAccess.Repositories
            return lstItem;
         }
         private readonly EshopMashtiHasanContext db;
+
         public CategoryRepository(EshopMashtiHasanContext db)
         {
             this.db = db;

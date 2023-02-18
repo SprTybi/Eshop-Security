@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Security.DataAccessServiceContract.Base
 {
-    public interface IBaseRepository<TModel, TKey>
+    public interface IBaseRepository<TModel, TKey, TUpdateModel, TAddModel>
     {
         TModel Get(TKey Id);
         List<TModel> GetAll();

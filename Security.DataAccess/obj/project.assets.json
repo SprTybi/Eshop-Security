@@ -602,7 +602,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Security.Domain": "1.0.0"
+          "Security.Domain": "1.0.0",
+          "Shopping.DataAcceServiceContract": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Security.DataAccessServiceContract.dll": {}
@@ -624,6 +625,33 @@
         },
         "runtime": {
           "bin/placeholder/Security.Domain.dll": {}
+        }
+      },
+      "Shopping.DataAcceServiceContract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Shopping.DomainModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shopping.DataAcceServiceContract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shopping.DataAcceServiceContract.dll": {}
+        }
+      },
+      "Shopping.DomainModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.11"
+        },
+        "compile": {
+          "bin/placeholder/Shopping.DomainModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shopping.DomainModel.dll": {}
         }
       }
     }
@@ -1800,6 +1828,16 @@
       "type": "project",
       "path": "../Security.Domain/Security.Domain.csproj",
       "msbuildProject": "../Security.Domain/Security.Domain.csproj"
+    },
+    "Shopping.DataAcceServiceContract/1.0.0": {
+      "type": "project",
+      "path": "../Shopping.DataAcceServiceContract/Shopping.DataAcceServiceContract.csproj",
+      "msbuildProject": "../Shopping.DataAcceServiceContract/Shopping.DataAcceServiceContract.csproj"
+    },
+    "Shopping.DomainModel/1.0.0": {
+      "type": "project",
+      "path": "../Shopping.DomainModel/Shopping.DomainModel.csproj",
+      "msbuildProject": "../Shopping.DomainModel/Shopping.DomainModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
