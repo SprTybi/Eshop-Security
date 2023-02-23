@@ -1592,6 +1592,7 @@ F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\EshopMashtiHasan\obj\Debug
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\EshopMashtiHasan\obj\Debug\net6.0\EshopMashtiHasan.AssemblyInfoInputs.cache
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\EshopMashtiHasan\obj\Debug\net6.0\EshopMashtiHasan.AssemblyInfo.cs
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\EshopMashtiHasan\obj\Debug\net6.0\EshopMashtiHasan.csproj.CoreCompileInputs.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\EshopMashtiHasan\obj\Debug\net6.0\EshopMashtiHasan.MvcApplicationPartsAssemblyInfo.cs
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\EshopMashtiHasan\obj\Debug\net6.0\EshopMashtiHasan.MvcApplicationPartsAssemblyInfo.cache
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\EshopMashtiHasan\obj\Debug\net6.0\EshopMashtiHasan.RazorAssemblyInfo.cache
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\EshopMashtiHasan\obj\Debug\net6.0\EshopMashtiHasan.RazorAssemblyInfo.cs
@@ -1889,4 +1890,3 @@ F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\EshopMashtiHasan\obj\Debug
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\EshopMashtiHasan\obj\Debug\net6.0\EshopMashtiHasan.pdb
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\EshopMashtiHasan\obj\Debug\net6.0\EshopMashtiHasan.genruntimeconfig.cache
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\EshopMashtiHasan\obj\Debug\net6.0\ref\EshopMashtiHasan.dll
-F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\EshopMashtiHasan\obj\Debug\net6.0\EshopMashtiHasan.MvcApplicationPartsAssemblyInfo.cs

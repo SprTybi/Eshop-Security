@@ -30,7 +30,7 @@ namespace Security.DataAccess.Repositories
                     {
                         ProjectActionName = model.ProjectActionName,
                         PersianTitle = model.PersianTitle,
-                        
+                        ProjectActionID = model.ProjectControllerID
                     };
                     db.Add(pa);
                     db.SaveChanges();
@@ -86,6 +86,14 @@ namespace Security.DataAccess.Repositories
             {
                 q = q.Where(x => x.ProjectActionName.StartsWith(sm.ProjectActionName));
             }
+            if (sm.ProjectControllerID == -1)
+            {
+                sm.ProjectControllerID = null;
+            }
+            if (sm.ProjectControllerID != null)
+            {
+                q = q.Where(x => x.ProjectController.ProjectControllerID == sm.ProjectControllerID);
+            }
             if (!string.IsNullOrEmpty(sm.PersianTitle))
             {
                 q = q.Where(x => x.PersianTitle.StartsWith(sm.PersianTitle));
@@ -96,7 +104,7 @@ namespace Security.DataAccess.Repositories
                 ProjectActionName = x.ProjectActionName,
                 ProjectActionID = x.ProjectActionID,
                 PersianTitle = x.PersianTitle,
-
+                ProjectControllerName = x.ProjectController.ProjectControllerName
             }
             ).OrderByDescending(x => x.ProjectActionID).Skip(sm.PageIndex * sm.PageSize).Take(sm.PageSize).ToList();
         }
@@ -141,11 +149,21 @@ namespace Security.DataAccess.Repositories
         {
             return db.projectActions.Any(x => x.ProjectActionName == ProjectActionName && x.ProjectActionID == ProjectActionId);
         }
+        public bool ExistProjectActionNameInController(int ControllerId, string ProjectActionName)
+        {
+            return db.projectControllers.Any(x => x.ProjectActions.Any(x =>x.ProjectActionName == ProjectActionName));
+        }
 
         public int GetProjectControllerId(string controller)
         {
-            var q = db.projectControllers.FirstOrDefault(x=>x.ProjectControllerName == controller);
+            var q = db.projectControllers.FirstOrDefault(x => x.ProjectControllerName == controller);
             return q.ProjectControllerID;
+        }
+
+        public bool ExistController(int ControllerId)
+        {
+            return db.projectControllers.Any(x => x.ProjectControllerID == ControllerId);
+
         }
     }
 }

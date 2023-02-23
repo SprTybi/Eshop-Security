@@ -131,11 +131,6 @@ F:\AfshinRefua\1401-08-05MVCElementary\15\EshopMashtiHasan\Shopping.DataAccess\o
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Shopping.DataAccess\obj\Debug\net6.0\Shopping.DataAccess.pdb
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Shopping.DataAccess\obj\Debug\net6.0\Shopping.DataAccess.genruntimeconfig.cache
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Shopping.DataAccess\obj\Debug\net6.0\ref\Shopping.DataAccess.dll
-F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\obj\Debug\net6.0\Shopping.DataAccess.csproj.AssemblyReference.cache
-F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\obj\Debug\net6.0\Shopping.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\obj\Debug\net6.0\Shopping.DataAccess.AssemblyInfoInputs.cache
-F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\obj\Debug\net6.0\Shopping.DataAccess.AssemblyInfo.cs
-F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\obj\Debug\net6.0\Shopping.DataAccess.csproj.CoreCompileInputs.cache
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\bin\Debug\net6.0\Shopping.DataAccess.deps.json
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\bin\Debug\net6.0\Shopping.DataAccess.runtimeconfig.json
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\bin\Debug\net6.0\Shopping.DataAccess.dll
@@ -144,6 +139,11 @@ F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\bin\De
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\bin\Debug\net6.0\Shopping.DomainModel.dll
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\bin\Debug\net6.0\Shopping.DataAcceServiceContract.pdb
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\bin\Debug\net6.0\Shopping.DomainModel.pdb
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\obj\Debug\net6.0\Shopping.DataAccess.csproj.AssemblyReference.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\obj\Debug\net6.0\Shopping.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\obj\Debug\net6.0\Shopping.DataAccess.AssemblyInfoInputs.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\obj\Debug\net6.0\Shopping.DataAccess.AssemblyInfo.cs
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\obj\Debug\net6.0\Shopping.DataAccess.csproj.CoreCompileInputs.cache
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\obj\Debug\net6.0\Shopping.DataAccess.csproj.CopyComplete
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\obj\Debug\net6.0\Shopping.DataAccess.dll
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAccess\obj\Debug\net6.0\refint\Shopping.DataAccess.dll

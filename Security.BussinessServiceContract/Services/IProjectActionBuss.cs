@@ -19,5 +19,6 @@ namespace Security.BussinessServiceContract.Services
         ProjectAction GetProjectAction(int ProjectActionID);
         List<ProjectControllerDrop> ProjectControllerDrops();
         int GetProjectController(string Controller);
+        bool ExistProjectActionNameInController(int ControllerId,string ProjectActionName);
     }
 }

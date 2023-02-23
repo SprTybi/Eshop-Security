@@ -23,7 +23,7 @@
         $("#btnOpenAddModalForm").click(function () {
             var sendingUrl = '@Url.Action("AddNew","ProjectActionManagement")';
             var sendingData = $("#frmProjectActionSearchBox").serialize();
-            $.get(sendingUrl, null, function (rd) {
+            $.get(sendingUrl, sendingData, function (rd) {
                 $("#myModalProjectAction").modal('show');
                 $("#dvContentProjectAction").html(rd);
             });
@@ -49,6 +49,9 @@
         BindGrid();
     });
     $(document).on("keyup", "#PersianTitle", function () {
+        BindGrid();
+    });
+    $(document).on("change", "#ProjectControllerID", function () {
         BindGrid();
     });
     function BindGrid() {

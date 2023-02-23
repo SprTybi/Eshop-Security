@@ -173,11 +173,6 @@ F:\AfshinRefua\1401-08-05MVCElementary\15\EshopMashtiHasan\Shopping.BootStrap\ob
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Shopping.BootStrap\obj\Debug\net6.0\Shopping.BootStrap.pdb
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Shopping.BootStrap\obj\Debug\net6.0\Shopping.BootStrap.genruntimeconfig.cache
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Shopping.BootStrap\obj\Debug\net6.0\ref\Shopping.BootStrap.dll
-F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\obj\Debug\net6.0\Shopping.BootStrap.csproj.AssemblyReference.cache
-F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\obj\Debug\net6.0\Shopping.BootStrap.GeneratedMSBuildEditorConfig.editorconfig
-F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\obj\Debug\net6.0\Shopping.BootStrap.AssemblyInfoInputs.cache
-F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\obj\Debug\net6.0\Shopping.BootStrap.AssemblyInfo.cs
-F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\obj\Debug\net6.0\Shopping.BootStrap.csproj.CoreCompileInputs.cache
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\bin\Debug\net6.0\Shopping.BootStrap.deps.json
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\bin\Debug\net6.0\Shopping.BootStrap.runtimeconfig.json
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\bin\Debug\net6.0\Shopping.BootStrap.dll
@@ -192,6 +187,11 @@ F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\bin\Deb
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\bin\Debug\net6.0\Shopping.DataAcceServiceContract.pdb
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\bin\Debug\net6.0\Shopping.DataAccess.pdb
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\bin\Debug\net6.0\Shopping.DomainModel.pdb
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\obj\Debug\net6.0\Shopping.BootStrap.csproj.AssemblyReference.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\obj\Debug\net6.0\Shopping.BootStrap.GeneratedMSBuildEditorConfig.editorconfig
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\obj\Debug\net6.0\Shopping.BootStrap.AssemblyInfoInputs.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\obj\Debug\net6.0\Shopping.BootStrap.AssemblyInfo.cs
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\obj\Debug\net6.0\Shopping.BootStrap.csproj.CoreCompileInputs.cache
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\obj\Debug\net6.0\Shopping.BootStrap.csproj.CopyComplete
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\obj\Debug\net6.0\Shopping.BootStrap.dll
 F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BootStrap\obj\Debug\net6.0\refint\Shopping.BootStrap.dll

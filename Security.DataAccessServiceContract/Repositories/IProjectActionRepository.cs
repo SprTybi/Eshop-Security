@@ -16,8 +16,8 @@ namespace Security.DataAccessServiceContract.Repositories
         bool ExistProjectActionName(string ProjectActionName);
         bool ExistProjectActionName(string ProjectActionName,int ProjectActionId);
         int GetProjectControllerId(string controller);
+        bool ExistController(int ControllerId);
         public List<ProjectControllerDrop> PcDrops();
-     
-
+        bool ExistProjectActionNameInController(int ControllerId, string ProjectActionName);
     }
 }

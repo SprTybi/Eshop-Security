@@ -21,8 +21,8 @@ namespace EshopMashtiHasan.ViewComponents
         {
             var controllerDrops = buss.ProjectControllerDrops();
             controllerDrops.Insert(0, new ProjectControllerDrop { ProjectControllerID = -1, ProjectControllerName = "..Controller.." });
-            SelectList drpRole = new SelectList(controllerDrops, "ProjectControllerID", "ProjectControllerName");
-            ViewBag.controllerDrops = controllerDrops;
+            SelectList drpController = new SelectList(controllerDrops, "ProjectControllerID", "ProjectControllerName");
+            ViewBag.drpController = drpController;
         }
 
         //public void InflateDrpChoiseProjectAction()

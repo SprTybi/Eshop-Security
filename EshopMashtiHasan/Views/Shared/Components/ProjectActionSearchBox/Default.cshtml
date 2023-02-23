@@ -12,6 +12,10 @@
                 <label asp-for="PersianTitle" class="control-label"></label>
                 <input asp-for="PersianTitle" class="form-control" />
             </div>
+            <div class="form-group">
+                <label asp-for="ProjectControllerID" class="control-label"></label>
+                <select asp-items="@ViewBag.drpController" class="form-control" asp-for="ProjectControllerID"></select>
+            </div>
 
         </form>
     </div>

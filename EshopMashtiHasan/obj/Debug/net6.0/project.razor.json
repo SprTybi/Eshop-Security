@@ -18781,6 +18781,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "f:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\Views\\Reflector\\Index.cshtml",
+      "TargetPath": "Views\\Reflector\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "f:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\Views\\Shared\\Components\\RoleList\\Default.cshtml",
       "TargetPath": "Views\\Shared\\Components\\RoleList\\Default.cshtml",
       "FileKind": "mvc"

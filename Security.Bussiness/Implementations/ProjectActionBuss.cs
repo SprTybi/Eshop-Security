@@ -24,6 +24,11 @@ namespace Security.Bussiness.Implementations
             return repo.Delete(ProjectActionID);
         }
 
+        public bool ExistProjectActionNameInController(int ControllerId, string ProjectActionName)
+        {
+            return repo.ExistProjectActionNameInController(ControllerId, ProjectActionName);
+        }
+
         public ProjectAction GetProjectAction(int ProjectActionID)
         {
             return repo.Get(ProjectActionID);
@@ -41,7 +46,8 @@ namespace Security.Bussiness.Implementations
 
         public OperationResult Register(ProjectActionAddModel PA)
         {
-            if(repo.ExistProjectActionName(PA.ProjectActionName))
+            throw new Exception("اینجا بگا رفتم نمیدونم چطوری اکشن های داخل کنترلر هارو بفهمم");
+           if(repo.ExistProjectActionNameInController(PA.ProjectControllerID,PA.ProjectActionName))
             {
                 return new OperationResult("Register failed", "ProjectAction").ToFail("ActionName already exist!!");
             }
