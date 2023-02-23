@@ -2,7 +2,7 @@
 using Security.Domain.DTO.ProjectAction;
 using Security.Domain.DTO.ProjectController;
 using Security.Domain.Models;
-using Shopping.DomainModel.BaseModel;
+using Security.Domain.BaseModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,7 +30,7 @@ namespace Security.DataAccess.Repositories
                     {
                         ProjectActionName = model.ProjectActionName,
                         PersianTitle = model.PersianTitle,
-
+                        
                     };
                     db.Add(pa);
                     db.SaveChanges();
@@ -57,7 +57,7 @@ namespace Security.DataAccess.Repositories
             return db.projectActions.ToList();
         }
 
-        public OperationResult Remove(int id)
+        public OperationResult Delete(int id)
         {
             OperationResult op = new OperationResult("Remove", "ProjectActions", id);
             {
@@ -135,6 +135,17 @@ namespace Security.DataAccess.Repositories
                 ProjectControllerName = x.ProjectControllerName
             }).ToList();
 
+        }
+
+        public bool ExistProjectActionName(string ProjectActionName, int ProjectActionId)
+        {
+            return db.projectActions.Any(x => x.ProjectActionName == ProjectActionName && x.ProjectActionID == ProjectActionId);
+        }
+
+        public int GetProjectControllerId(string controller)
+        {
+            var q = db.projectControllers.FirstOrDefault(x=>x.ProjectControllerName == controller);
+            return q.ProjectControllerID;
         }
     }
 }

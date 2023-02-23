@@ -2,7 +2,6 @@
 using Security.Domain.DTO.ProjectArea;
 using Security.Domain.DTO.Role;
 using Security.Domain.Models;
-using Shopping.DataAcceServiceContract.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +10,9 @@ using System.Threading.Tasks;
 
 namespace Security.DataAccessServiceContract.Repositories
 {
-    public interface IProjectAreaRepository : Shopping.DataAcceServiceContract.Base.IBaseRespositorySearchable<ProjectArea, int, ProjectAreaSearchModel, ProjectAreaListItem, ProjectAreaUpdateModel, ProjectAreaAddModel>
+    public interface IProjectAreaRepository : IBaseRepositorySearchable<ProjectArea, int, ProjectAreaSearchModel, ProjectAreaListItem, ProjectAreaUpdateModel, ProjectAreaAddModel>
     {
         bool ExistAreaName(string AreaName);
+        bool ExistAreaName(string AreaName, int AreaId);
     }
 }

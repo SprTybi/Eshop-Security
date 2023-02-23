@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Security.Domain.BaseModel;
+using Security.Domain.DTO.ProjectArea;
+using Security.Domain.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

@@ -1,0 +1,111 @@
+﻿@model Security.Domain.DTO.User.UserSearchModel
+
+<div id="dvSearchBox">
+    @await Component.InvokeAsync("UserSearchBox", this.Model)
+</div>
+
+<span class="btn btn-primary" id="btnOpenAddModalForm">Add form</span>
+<div id="dvContentUserList">
+    @await Component.InvokeAsync("UserList",this.Model)
+</div>
+
+@*modal*@
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myModalUser">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div id="dvContentUser"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#btnOpenAddModalForm").click(function () {
+            var sendingUrl = '@Url.Action("AddNew","UserManagement")';
+            var sendingData = $("#frmSearchBox").serialize();
+            $.get(sendingUrl, sendingData, function (rd) {
+                $("#myModalUser").modal('show');
+                $("#dvContentUser").html(rd);
+            });
+        });
+    });
+    $(document).on("click", "#btnAddNewUser", function () {
+        var sendingUrl = '@Url.Action("AddNewUser","UserManagement")';
+        var sendingData = $("#addNewUserForm").serialize();
+        $.post(sendingUrl, sendingData, function (op) {
+            if (op.success.toString() == "true") {
+                $("#myModalUser").modal("hide");
+                SuccessMessage(op.message);
+                BindGrid();
+                RefreshSearchBox();
+            }
+            else {
+                ErrorMessage(op.message);
+            }
+        });
+    });
+
+    $(document).on("keyup", "#UserName", function () {
+        BindGrid();
+    });
+    $(document).on("keyup", "#FirstName", function () {
+        BindGrid();
+    });
+    $(document).on("keyup", "#LastName", function () {
+        BindGrid();
+    });
+    $(document).on("change", "#RoleID", function () {
+        BindGrid();
+    });
+    function BindGrid() {
+        var sendingUrl = '@Url.Action("UserList","UserManagement")';
+        var sendingData = $("#frmSearchBox").serialize();;
+        $.get(sendingUrl, sendingData, function (grd) {
+            $("#dvContentUserList").html(grd);
+        });
+    };
+    function RefreshSearchBox() {
+        var sendingUrl = '@Url.Action("UserSearchBox","UserManagement")';
+        var sendingData = $("#frmSearchBox").serialize();
+        $.get(sendingUrl, sendingData, function (frmSearch) {
+            $("#dvSearchBox").html(frmSearch);
+        });
+    }
+    $(document).on("click", ".btnDeleteUser", function () {
+        var name = $(this).attr("data-name");
+        if (confirm(`آیا از حذف ${name} مطمئن هستید ؟`)) {
+            var id = $(this).attr("data-id");
+            var sendingData = "id=" + id;
+            var sendingUrl = '@Url.Action("DeleteUser","UserManagement")';
+            $.post(sendingUrl, sendingData, function (op) {
+                if (op.success.toString() == "true") {
+                    var rowID = "#tr_" + id;
+                    $(rowID).slideUp(500);
+                    BindGrid();
+                }
+                else {
+                    ErrorMessage(op.message);
+                }
+            });
+        }
+
+    });
+
+    @*Sweet Alert functions*@
+        function SuccessMessage(SuccessTxt) {
+            Swal.fire({
+                icon: 'success',
+                title: 'وضعیت ثبت',
+                text: SuccessTxt,
+            });
+        }
+    function ErrorMessage(ErrorTxt) {
+        Swal.fire({
+            icon: 'error',
+            title: 'خطا',
+            text: ErrorTxt,
+        });
+    }
+</script>
+
+

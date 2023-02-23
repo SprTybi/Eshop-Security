@@ -11,9 +11,9 @@ namespace Security.BussinessServiceContract.Services
 {
     public interface IRoleBuss
     {
-        OperationResult RegisterRole(RoleAddModel user);
-        OperationResult UpdateUser(RoleUpdateModel user);
-        OperationResult RemoveUser(int userId);
+        OperationResult RegisterRole(RoleAddModel role);
+        OperationResult UpdateRole(RoleUpdateModel role);
+        OperationResult RemoveRole(int roleId);
         List<RoleListItem> Search(RoleSearchModel sm, out int RecordCount);
         Role GetRole(int Roleid);
     }

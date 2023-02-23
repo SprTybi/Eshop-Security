@@ -1,7 +1,7 @@
 ﻿using Security.DataAccessServiceContract.Repositories;
 using Security.Domain.DTO.ProjectArea;
 using Security.Domain.Models;
-using Shopping.DomainModel.BaseModel;
+using Security.Domain.BaseModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Security.DataAccess.Repositories
 {
-    
+
     public class ProjectAreaRepository : IProjectAreaRepository
     {
         private ProjectAreaListItem ToListItem(ProjectArea PArea)
@@ -63,7 +63,7 @@ namespace Security.DataAccess.Repositories
             return db.ProjectAreas.ToList();
         }
 
-        public OperationResult Remove(int id)
+        public OperationResult Delete(int id)
         {
             OperationResult op = new OperationResult("Delete", "ProjectActions");
 
@@ -109,7 +109,7 @@ namespace Security.DataAccess.Repositories
 
         public OperationResult Update(ProjectAreaUpdateModel model)
         {
-            OperationResult op = new OperationResult("Update", "ProjectAreas" , model.ProjectAreaID);
+            OperationResult op = new OperationResult("Update", "ProjectAreas", model.ProjectAreaID);
             {
 
                 try
@@ -134,6 +134,11 @@ namespace Security.DataAccess.Repositories
         {
             return db.ProjectAreas.Any(x => x.AreaName == AreaName);
 
+        }
+
+        public bool ExistAreaName(string AreaName, int AreaId)
+        {
+            return db.ProjectAreas.Any(x => x.AreaName == AreaName && x.ProjectAreaID == AreaId);
         }
     }
 }

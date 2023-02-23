@@ -7,7 +7,7 @@ namespace Shopping.DataAcceServiceContract.Base
   {
       TModel Get(TKey id);
       List<TModel> GetAll();
-      OperationResult Remove(TKey id);
+      OperationResult Delete(TKey id);
       OperationResult Update(TUpdateModel model);
       OperationResult Add(TAddModel model);
 

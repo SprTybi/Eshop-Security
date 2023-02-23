@@ -3,7 +3,7 @@ using Security.Domain.DTO.ProjectAction;
 using Security.Domain.DTO.Role;
 using Security.Domain.DTO.RoleAction;
 using Security.Domain.Models;
-using Shopping.DomainModel.BaseModel;
+using Security.Domain.BaseModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -51,7 +51,7 @@ namespace Security.DataAccess.Repositories
             return db.RoleActions.ToList();
         }
 
-        public OperationResult Remove(int id)
+        public OperationResult Delete(int id)
         {
             OperationResult op = new OperationResult("Delete", "RoleActions");
             try
@@ -72,19 +72,15 @@ namespace Security.DataAccess.Repositories
         {
             var q = from item in db.RoleActions select item;
 
-            if (sm.RoleID != null)
+            if (!string.IsNullOrEmpty(sm.RoleName))
             {
-                q = q.Where(x => x.RoleID == sm.RoleID);
+                q = q.Where(x => x.Role.RoleName.StartsWith(sm.RoleName));
+            }
+            if (!string.IsNullOrEmpty(sm.ProjectActionName))
+            {
+                q = q.Where(x => x.ProjectAction.ProjectActionName.StartsWith(sm.ProjectActionName));
             }
 
-            if (sm.RoleActionID != null)
-            {
-                q = q.Where(x => x.RoleActionID == sm.RoleActionID);
-            }
-            if (sm.ProjectActionID != null)
-            {
-                q = q.Where(x => x.ProjectActionID == sm.ProjectActionID);
-            }
 
             RecordCount = q.Count();
             return q.Select(x => new RoleActionListItem

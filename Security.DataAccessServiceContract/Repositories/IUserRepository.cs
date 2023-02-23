@@ -13,6 +13,7 @@ namespace Security.DataAccessServiceContract.Repositories
     public interface IUserRepository : IBaseRepositorySearchable<User, int, UserSearchModel, UserListItem, UserUpdateModel, UserAddModel>
     {
         bool ExistUserName(string userName);
+        bool ExistUserName(string userName,int userId);
         List<RoleDrp> RoleDrp();
     }
 }

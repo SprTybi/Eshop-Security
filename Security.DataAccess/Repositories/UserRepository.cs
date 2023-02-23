@@ -95,6 +95,10 @@ namespace Security.DataAccess.Repositories
             {
                 q = q.Where(x => x.Mobile.StartsWith(sm.Mobile));
             }
+            if (sm.RoleID == -1)
+            {
+                sm.RoleID = null;
+            }
             if (sm.RoleID != null)
             {
                 q = q.Where(x => x.RoleID == sm.RoleID);
@@ -153,5 +157,9 @@ namespace Security.DataAccess.Repositories
             }).ToList();
         }
 
+        public bool ExistUserName(string userName, int userId)
+        {
+            return db.Users.Any(x=>x.UserName == userName && x.UserID == userId);
+        }
     }
 }

@@ -21,7 +21,7 @@ namespace Security.Domain.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("Security.Domain.ProjectAction", b =>
+            modelBuilder.Entity("Security.Domain.Models.ProjectAction", b =>
                 {
                     b.Property<int>("ProjectActionID")
                         .ValueGeneratedOnAdd()
@@ -47,7 +47,7 @@ namespace Security.Domain.Migrations
                     b.ToTable("projectActions");
                 });
 
-            modelBuilder.Entity("Security.Domain.ProjectArea", b =>
+            modelBuilder.Entity("Security.Domain.Models.ProjectArea", b =>
                 {
                     b.Property<int>("ProjectAreaID")
                         .ValueGeneratedOnAdd()
@@ -68,7 +68,7 @@ namespace Security.Domain.Migrations
                     b.ToTable("ProjectAreas");
                 });
 
-            modelBuilder.Entity("Security.Domain.ProjectController", b =>
+            modelBuilder.Entity("Security.Domain.Models.ProjectController", b =>
                 {
                     b.Property<int>("ProjectControllerID")
                         .ValueGeneratedOnAdd()
@@ -94,7 +94,7 @@ namespace Security.Domain.Migrations
                     b.ToTable("projectControllers");
                 });
 
-            modelBuilder.Entity("Security.Domain.Role", b =>
+            modelBuilder.Entity("Security.Domain.Models.Role", b =>
                 {
                     b.Property<int>("RoleID")
                         .ValueGeneratedOnAdd()
@@ -111,7 +111,7 @@ namespace Security.Domain.Migrations
                     b.ToTable("Roles");
                 });
 
-            modelBuilder.Entity("Security.Domain.RoleAction", b =>
+            modelBuilder.Entity("Security.Domain.Models.RoleAction", b =>
                 {
                     b.Property<int>("RoleActionID")
                         .ValueGeneratedOnAdd()
@@ -137,7 +137,7 @@ namespace Security.Domain.Migrations
                     b.ToTable("RoleActions");
                 });
 
-            modelBuilder.Entity("Security.Domain.User", b =>
+            modelBuilder.Entity("Security.Domain.Models.User", b =>
                 {
                     b.Property<int>("UserID")
                         .ValueGeneratedOnAdd()
@@ -182,9 +182,9 @@ namespace Security.Domain.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Security.Domain.ProjectAction", b =>
+            modelBuilder.Entity("Security.Domain.Models.ProjectAction", b =>
                 {
-                    b.HasOne("Security.Domain.ProjectController", "ProjectController")
+                    b.HasOne("Security.Domain.Models.ProjectController", "ProjectController")
                         .WithMany("ProjectActions")
                         .HasForeignKey("ProjectControllerID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -193,9 +193,9 @@ namespace Security.Domain.Migrations
                     b.Navigation("ProjectController");
                 });
 
-            modelBuilder.Entity("Security.Domain.ProjectController", b =>
+            modelBuilder.Entity("Security.Domain.Models.ProjectController", b =>
                 {
-                    b.HasOne("Security.Domain.ProjectArea", "ProjectArea")
+                    b.HasOne("Security.Domain.Models.ProjectArea", "ProjectArea")
                         .WithMany("ProjctControllers")
                         .HasForeignKey("ProjectAreaID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -204,15 +204,15 @@ namespace Security.Domain.Migrations
                     b.Navigation("ProjectArea");
                 });
 
-            modelBuilder.Entity("Security.Domain.RoleAction", b =>
+            modelBuilder.Entity("Security.Domain.Models.RoleAction", b =>
                 {
-                    b.HasOne("Security.Domain.ProjectAction", "ProjectAction")
+                    b.HasOne("Security.Domain.Models.ProjectAction", "ProjectAction")
                         .WithMany("RoleActions")
                         .HasForeignKey("ProjectActionID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Security.Domain.Role", "Role")
+                    b.HasOne("Security.Domain.Models.Role", "Role")
                         .WithMany("RoleActions")
                         .HasForeignKey("RoleID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -223,9 +223,9 @@ namespace Security.Domain.Migrations
                     b.Navigation("Role");
                 });
 
-            modelBuilder.Entity("Security.Domain.User", b =>
+            modelBuilder.Entity("Security.Domain.Models.User", b =>
                 {
-                    b.HasOne("Security.Domain.Role", "Role")
+                    b.HasOne("Security.Domain.Models.Role", "Role")
                         .WithMany("Users")
                         .HasForeignKey("RoleID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -234,22 +234,22 @@ namespace Security.Domain.Migrations
                     b.Navigation("Role");
                 });
 
-            modelBuilder.Entity("Security.Domain.ProjectAction", b =>
+            modelBuilder.Entity("Security.Domain.Models.ProjectAction", b =>
                 {
                     b.Navigation("RoleActions");
                 });
 
-            modelBuilder.Entity("Security.Domain.ProjectArea", b =>
+            modelBuilder.Entity("Security.Domain.Models.ProjectArea", b =>
                 {
                     b.Navigation("ProjctControllers");
                 });
 
-            modelBuilder.Entity("Security.Domain.ProjectController", b =>
+            modelBuilder.Entity("Security.Domain.Models.ProjectController", b =>
                 {
                     b.Navigation("ProjectActions");
                 });
 
-            modelBuilder.Entity("Security.Domain.Role", b =>
+            modelBuilder.Entity("Security.Domain.Models.Role", b =>
                 {
                     b.Navigation("RoleActions");
 

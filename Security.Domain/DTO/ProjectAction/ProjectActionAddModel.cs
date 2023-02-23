@@ -9,8 +9,9 @@ namespace Security.Domain.DTO.ProjectAction
     public class ProjectActionAddModel
     {
         public string ProjectActionName { get; set; }
-        public string PersianTitle { get; set; }        
-             
+        public int ProjectControllerID { get; set; }
+        public string PersianTitle { get; set; }
+
     }
 }
 

@@ -48,7 +48,7 @@ namespace Shopping.Bussiness.Implementations
                 return new OperationResult("Remove", "Category").ToFail("This Category Has Related Sub Categories");
             }
 
-            return repo.Remove(CategoryID);
+            return repo.Delete(CategoryID);
         }
 
         public OperationResult Update(CategoryUpdateModel cat)

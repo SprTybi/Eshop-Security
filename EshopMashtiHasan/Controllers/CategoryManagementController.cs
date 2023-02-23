@@ -14,6 +14,8 @@ namespace EshopMashtiHasan.Controllers
         {
             this.catBuss = catBuss;
         }
+        
+        //show modal
         public IActionResult AddNew()
         {
             return ViewComponent("RegisterCategory");

@@ -36,7 +36,7 @@ namespace Shopping.DataAccess.Repositories
         {
             return db.Categories.ToList();
         }
-        public OperationResult Remove(int id)
+        public OperationResult Delete(int id)
         {
             OperationResult op = new OperationResult("Delete", "Category", id);
             try

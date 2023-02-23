@@ -2,7 +2,7 @@
 using Security.Domain.DTO.ProjectArea;
 using Security.Domain.DTO.ProjectController;
 using Security.Domain.Models;
-using Shopping.DomainModel.BaseModel;
+using Security.Domain.BaseModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -59,6 +59,11 @@ namespace Security.DataAccess.Repositories
 
         }
 
+        public bool ExitsProjectControllerName(string ProjectControllerName, int ProjectControllerId)
+        {
+            return db.projectControllers.Any(x => x.ProjectControllerName == ProjectControllerName && x.ProjectControllerID == ProjectControllerId);
+        }
+
         public ProjectController Get(int id)
         {
             return db.projectControllers.FirstOrDefault(x => x.ProjectControllerID == id);
@@ -79,7 +84,7 @@ namespace Security.DataAccess.Repositories
             }).ToList();
         }
 
-        public OperationResult Remove(int id)
+        public OperationResult Delete(int id)
         {
             OperationResult op = new OperationResult("Delete", "ProjectControllers");
             try

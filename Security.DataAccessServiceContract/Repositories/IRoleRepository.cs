@@ -12,7 +12,8 @@ namespace Security.DataAccessServiceContract.Repositories
 {
     public interface IRoleRepository : IBaseRepositorySearchable<Role, int, RoleSearchModel, RoleListItem,RoleUpdateModel,RoleAddModel>
     {
-        bool ExistsRoolName(String RoleName);
+        bool ExistsRoleName(string RoleName);
+        bool ExistsRoleName(string RoleName , int RoleId);
         int GetUserCount(int RoleID);
         List<UserListItem>UserList(int RoleID);
 

@@ -1,0 +1,103 @@
+﻿@model Security.Domain.DTO.Role.RoleSearchModel
+
+
+<div id="dvSearchBox">
+    @await Component.InvokeAsync("RoleSearchBox", this.Model)
+</div>
+
+<span class="btn btn-primary" id="btnOpenAddModalForm">Add form</span>
+<div id="dvContentRoleList">
+    @await Component.InvokeAsync("RoleList",this.Model)
+</div>
+
+@*modal*@
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myModalRole">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div id="dvContentRole"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#btnOpenAddModalForm").click(function () {
+            var sendingUrl = '@Url.Action("AddNew","RoleManagement")';
+            var sendingData = $("#frmRoleSearchBox").serialize();
+            $.get(sendingUrl, sendingData, function (rd) {
+                $("#myModalRole").modal('show');
+                $("#dvContentRole").html(rd);
+            });
+        });
+    });
+    $(document).on("click", "#btnAddNewRole", function () {
+        var sendingUrl = '@Url.Action("AddNewRole","RoleManagement")';
+        var sendingData = $("#addNewRoleForm").serialize();
+        $.post(sendingUrl, sendingData, function (op) {
+            if (op.success.toString() == "true") {
+                $("#myModalRole").modal("hide");
+                SuccessMessage(op.message);
+                BindGrid();
+                RefreshSearchBox();
+            }
+            else {
+                ErrorMessage(op.message);
+            }
+        });
+    });
+
+    $(document).on("keyup", "#RoleName", function () {
+        BindGrid();
+    });
+    function BindGrid() {
+        var sendingUrl = '@Url.Action("RoleList","RoleManagement")';
+        var sendingData = $("#frmRoleSearchBox").serialize();;
+        $.get(sendingUrl, sendingData, function (grd) {
+            $("#dvContentRoleList").html(grd);
+        });
+    };
+    function RefreshSearchBox() {
+        var sendingUrl = '@Url.Action("RoleSearchBox","RoleManagement")';
+        var sendingData = $("#frmRoleSearchBox").serialize();
+        $.get(sendingUrl, sendingData, function (frmSearch) {
+            $("#dvSearchBox").html(frmSearch);
+        });
+    }
+    $(document).on("click", ".btnDeleteRole", function () {
+        var name = $(this).attr("data-name");
+        if (confirm(`آیا از حذف ${name} مطمئن هستید ؟`)) {
+            var id = $(this).attr("data-id");
+            var sendingData = "id=" + id;
+            var sendingUrl = '@Url.Action("DeleteRole","RoleManagement")';
+            $.post(sendingUrl, sendingData, function (op) {
+                if (op.success.toString() == "true") {
+                    var rowID = "#tr_" + id;
+                    $(rowID).slideUp(500);
+                    BindGrid();
+                }
+                else {
+                    ErrorMessage(op.message);
+                }
+            });
+        }
+
+    });
+
+    @*Sweet Alert functions*@
+        function SuccessMessage(SuccessTxt) {
+            Swal.fire({
+                icon: 'success',
+                title: 'وضعیت ثبت',
+                text: SuccessTxt,
+            });
+        }
+    function ErrorMessage(ErrorTxt) {
+        Swal.fire({
+            icon: 'error',
+            title: 'خطا',
+            text: ErrorTxt,
+        });
+    }
+</script>
+
+

@@ -39,7 +39,7 @@ namespace Shopping.DataAccess.Repositories
             return db.Suppliers.ToList();
         }
 
-        public OperationResult Remove(int id)
+        public OperationResult Delete(int id)
         {
             OperationResult op = new OperationResult("Delete", "Supplier", id);
 

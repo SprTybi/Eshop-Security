@@ -103,3 +103,18 @@ F:\AfshinRefua\1401-08-05MVCElementary\15\EshopMashtiHasan\Shopping.DataAcceServ
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Shopping.DataAcceServiceContract\obj\Debug\net6.0\refint\Shopping.DataAcceServiceContract.dll
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Shopping.DataAcceServiceContract\obj\Debug\net6.0\Shopping.DataAcceServiceContract.pdb
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Shopping.DataAcceServiceContract\obj\Debug\net6.0\ref\Shopping.DataAcceServiceContract.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAcceServiceContract\bin\Debug\net6.0\Shopping.DataAcceServiceContract.deps.json
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAcceServiceContract\bin\Debug\net6.0\Shopping.DataAcceServiceContract.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAcceServiceContract\bin\Debug\net6.0\Shopping.DataAcceServiceContract.pdb
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAcceServiceContract\bin\Debug\net6.0\Shopping.DomainModel.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAcceServiceContract\bin\Debug\net6.0\Shopping.DomainModel.pdb
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAcceServiceContract\obj\Debug\net6.0\Shopping.DataAcceServiceContract.csproj.AssemblyReference.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAcceServiceContract\obj\Debug\net6.0\Shopping.DataAcceServiceContract.GeneratedMSBuildEditorConfig.editorconfig
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAcceServiceContract\obj\Debug\net6.0\Shopping.DataAcceServiceContract.AssemblyInfoInputs.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAcceServiceContract\obj\Debug\net6.0\Shopping.DataAcceServiceContract.AssemblyInfo.cs
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAcceServiceContract\obj\Debug\net6.0\Shopping.DataAcceServiceContract.csproj.CoreCompileInputs.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAcceServiceContract\obj\Debug\net6.0\Shopping.DataAcceServiceContract.csproj.CopyComplete
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAcceServiceContract\obj\Debug\net6.0\Shopping.DataAcceServiceContract.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAcceServiceContract\obj\Debug\net6.0\refint\Shopping.DataAcceServiceContract.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAcceServiceContract\obj\Debug\net6.0\Shopping.DataAcceServiceContract.pdb
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.DataAcceServiceContract\obj\Debug\net6.0\ref\Shopping.DataAcceServiceContract.dll

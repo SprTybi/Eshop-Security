@@ -1,19 +1,20 @@
 ﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - EshopMashtiHasan</title>
-    
+
     <link rel="stylesheet" href="~/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/EshopMashtiHasan.styles.css" asp-append-version="true" />
-      <script src="~/lib/jquery/dist/jquery.min.js"></script>
-      <script src="~/js/sweetalert2.min.js"></script>
-      <link rel="stylesheet" href="~/css/sweetalert2.min.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="~/css/sweetalert2.min.css" />
 
     <script src="~/js/bootstrap.bundle.min.js"></script>
-<script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
 </head>
 <body>
     <header>
@@ -35,8 +36,25 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="SupplierManagement2" asp-action="Index">Supplier2</a>
                         </li>
-                         <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="CategoryManagement" asp-action="Index">Category</a>
+                        </li>
+                        <li>
+
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Security
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-controller="UserManagement" asp-action="Index">User Management</a>
+                                    <a class="dropdown-item" asp-controller="RoleManagement" asp-action="Index">Role Management</a>
+                                    <a class="dropdown-item" asp-controller="RoleActionManagement" asp-action="Index">RoleAction Management</a>
+                                    <a class="dropdown-item" asp-controller="ProjectActionManagement" asp-action="Index">ProjectAction Management</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Separated link</a>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -54,19 +72,19 @@
             &copy; 2022 - EshopMashtiHasan - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
-  
-@*<script src="~/lib/jquery-validation/dist/jquery.validate.min.js" asp-append-version="true"></script>
-<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" asp-append-version="true"></script>*@
+
+    @*<script src="~/lib/jquery-validation/dist/jquery.validate.min.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" asp-append-version="true"></script>*@
 
 
     @await RenderSectionAsync("Scripts", required: false)
 
-@*<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+    @*<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
     <div class="modal-content">
-      ...
+    ...
     </div>
-  </div>
-</div>*@
+    </div>
+    </div>*@
 </body>
 </html>

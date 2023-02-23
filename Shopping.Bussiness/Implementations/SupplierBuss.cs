@@ -63,7 +63,7 @@ namespace Shopping.Bussiness.Implementations
                 return new OperationResult("RemoveSupplier", "Supplier").ToFail("Supplier Has Product");
 
             }
-           return repo.Remove(SupplierID);
+           return repo.Delete(SupplierID);
         }
 
         public List<Supplier> GetAll()

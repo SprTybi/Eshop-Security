@@ -103,3 +103,18 @@ F:\AfshinRefua\1401-08-05MVCElementary\15\EshopMashtiHasan\Shopping.BussinessSer
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net6.0\refint\Shopping.BussinessServiceContract.dll
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net6.0\Shopping.BussinessServiceContract.pdb
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net6.0\ref\Shopping.BussinessServiceContract.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BussinessServiceContract\bin\Debug\net6.0\Shopping.BussinessServiceContract.deps.json
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BussinessServiceContract\bin\Debug\net6.0\Shopping.BussinessServiceContract.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BussinessServiceContract\bin\Debug\net6.0\Shopping.BussinessServiceContract.pdb
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BussinessServiceContract\bin\Debug\net6.0\Shopping.DomainModel.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BussinessServiceContract\bin\Debug\net6.0\Shopping.DomainModel.pdb
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BussinessServiceContract\obj\Debug\net6.0\Shopping.BussinessServiceContract.csproj.AssemblyReference.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BussinessServiceContract\obj\Debug\net6.0\Shopping.BussinessServiceContract.GeneratedMSBuildEditorConfig.editorconfig
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BussinessServiceContract\obj\Debug\net6.0\Shopping.BussinessServiceContract.AssemblyInfoInputs.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BussinessServiceContract\obj\Debug\net6.0\Shopping.BussinessServiceContract.AssemblyInfo.cs
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BussinessServiceContract\obj\Debug\net6.0\Shopping.BussinessServiceContract.csproj.CoreCompileInputs.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BussinessServiceContract\obj\Debug\net6.0\Shopping.BussinessServiceContract.csproj.CopyComplete
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BussinessServiceContract\obj\Debug\net6.0\Shopping.BussinessServiceContract.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BussinessServiceContract\obj\Debug\net6.0\refint\Shopping.BussinessServiceContract.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BussinessServiceContract\obj\Debug\net6.0\Shopping.BussinessServiceContract.pdb
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Shopping.BussinessServiceContract\obj\Debug\net6.0\ref\Shopping.BussinessServiceContract.dll

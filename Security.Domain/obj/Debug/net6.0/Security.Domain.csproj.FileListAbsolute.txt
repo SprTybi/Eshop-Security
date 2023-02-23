@@ -26,3 +26,17 @@ F:\AfshinRefua\1401-08-05MVCElementary\15\EshopMashtiHasan\Security.Domain\obj\D
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Security.Domain\obj\Debug\net6.0\Security.Domain.pdb
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Security.Domain\obj\Debug\net6.0\Security.Domain.genruntimeconfig.cache
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Security.Domain\obj\Debug\net6.0\ref\Security.Domain.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Security.Domain\bin\Debug\net6.0\Security.Domain.deps.json
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Security.Domain\bin\Debug\net6.0\Security.Domain.runtimeconfig.json
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Security.Domain\bin\Debug\net6.0\Security.Domain.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Security.Domain\bin\Debug\net6.0\Security.Domain.pdb
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Security.Domain\obj\Debug\net6.0\Security.Domain.csproj.AssemblyReference.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Security.Domain\obj\Debug\net6.0\Security.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Security.Domain\obj\Debug\net6.0\Security.Domain.AssemblyInfoInputs.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Security.Domain\obj\Debug\net6.0\Security.Domain.AssemblyInfo.cs
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Security.Domain\obj\Debug\net6.0\Security.Domain.csproj.CoreCompileInputs.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Security.Domain\obj\Debug\net6.0\Security.Domain.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Security.Domain\obj\Debug\net6.0\refint\Security.Domain.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Security.Domain\obj\Debug\net6.0\Security.Domain.pdb
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Security.Domain\obj\Debug\net6.0\Security.Domain.genruntimeconfig.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Security.Domain\obj\Debug\net6.0\ref\Security.Domain.dll

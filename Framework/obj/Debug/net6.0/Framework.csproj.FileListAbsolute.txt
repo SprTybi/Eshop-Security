@@ -58,3 +58,15 @@ F:\AfshinRefua\1401-08-05MVCElementary\15\EshopMashtiHasan\Framework\obj\Debug\n
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Framework\obj\Debug\net6.0\refint\Framework.dll
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Framework\obj\Debug\net6.0\Framework.pdb
 \\DESKTOP-BFBCTEU\EshopMashtiHasan\Framework\obj\Debug\net6.0\ref\Framework.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Framework\bin\Debug\net6.0\Framework.deps.json
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Framework\bin\Debug\net6.0\Framework.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Framework\bin\Debug\net6.0\Framework.pdb
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Framework\obj\Debug\net6.0\Framework.csproj.AssemblyReference.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Framework\obj\Debug\net6.0\Framework.GeneratedMSBuildEditorConfig.editorconfig
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Framework\obj\Debug\net6.0\Framework.AssemblyInfoInputs.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Framework\obj\Debug\net6.0\Framework.AssemblyInfo.cs
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Framework\obj\Debug\net6.0\Framework.csproj.CoreCompileInputs.cache
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Framework\obj\Debug\net6.0\Framework.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Framework\obj\Debug\net6.0\refint\Framework.dll
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Framework\obj\Debug\net6.0\Framework.pdb
+F:\Tahlil Dadeh\MVC\Session 15\EshopMashtiHasan\Eshop\Framework\obj\Debug\net6.0\ref\Framework.dll

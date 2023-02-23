@@ -1,231 +1,231 @@
 {
   "Files": [
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EshopMashtiHasan.bundle.scp.css",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EshopMashtiHasan.bundle.scp.css",
       "PackagePath": "staticwebassets\\EshopMashtiHasan.bundle.scp.css"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\css\\bootstrap.css",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\css\\bootstrap.css.map",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\css\\font-awesome.css",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\css\\font-awesome.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.css"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\css\\font-awesome.min.css",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\css\\site.css",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\css\\sweetalert2.min.css",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\css\\sweetalert2.min.css",
       "PackagePath": "staticwebassets\\css\\sweetalert2.min.css"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\favicon.ico",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\fonts\\FontAwesome.otf",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\js\\popper.min.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\js\\popper.min.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\js\\site.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\js\\sweetalert2.min.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\js\\sweetalert2.min.js",
       "PackagePath": "staticwebassets\\js\\sweetalert2.min.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\a6606ecc-9a7b-4cc8-b27e-6fbc7fabf75e221227-2752037.jpg",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\a6606ecc-9a7b-4cc8-b27e-6fbc7fabf75e221227-2752037.jpg",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\a6606ecc-9a7b-4cc8-b27e-6fbc7fabf75e221227-2752037.jpg"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "\\\\DESKTOP-BFBCTEU\\EshopMashtiHasan\\EshopMashtiHasan\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "F:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

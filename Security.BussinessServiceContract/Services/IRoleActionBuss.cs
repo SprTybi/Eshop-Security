@@ -1,4 +1,9 @@
-﻿using System;
+﻿using Security.Domain.BaseModel;
+using Security.Domain.DTO.ProjectAction;
+using Security.Domain.DTO.Role;
+using Security.Domain.DTO.RoleAction;
+using Security.Domain.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,10 +15,10 @@ namespace Security.BussinessServiceContract.Services
     {
         OperationResult Register(RoleActionAddModel RoleAction);
         OperationResult update(RoleActionUpdateModel RoleAction);
-        OperationResult Delete(int RoleActionID);
+        OperationResult Remove(int RoleActionID);
         List<RoleActionListItem> Search(RoleActionSearchModel sm, out int RecordCount);
         RoleAction GetRoleAction(int RoleActionID);
-        List<RoleDrop> RoleDrps();
-        List<ProjectActionDrop> ProjectActionDrps();
+        List<RoleDrp> RoleDrps();
+        List<ProjectActionDrop> ProjectActionDrops();
     }
 }
