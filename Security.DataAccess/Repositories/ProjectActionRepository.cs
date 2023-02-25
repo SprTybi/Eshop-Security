@@ -30,7 +30,7 @@ namespace Security.DataAccess.Repositories
                     {
                         ProjectActionName = model.ProjectActionName,
                         PersianTitle = model.PersianTitle,
-                        ProjectActionID = model.ProjectControllerID
+                        ProjectControllerID = model.ProjectControllerID
                     };
                     db.Add(pa);
                     db.SaveChanges();
@@ -149,15 +149,21 @@ namespace Security.DataAccess.Repositories
         {
             return db.projectActions.Any(x => x.ProjectActionName == ProjectActionName && x.ProjectActionID == ProjectActionId);
         }
+
         public bool ExistProjectActionNameInController(int ControllerId, string ProjectActionName)
         {
-            return db.projectControllers.Any(x => x.ProjectActions.Any(x =>x.ProjectActionName == ProjectActionName));
+            return db.projectControllers.Any(x=>x.ProjectControllerID == ControllerId && x.ProjectActions.Any(x=>x.ProjectActionName == ProjectActionName));
         }
 
         public int GetProjectControllerId(string controller)
         {
             var q = db.projectControllers.FirstOrDefault(x => x.ProjectControllerName == controller);
             return q.ProjectControllerID;
+        }
+        public string GetProjectControllerById(int controllerId)
+        {
+            var q = db.projectControllers.FirstOrDefault(x => x.ProjectControllerID == controllerId);
+            return q.ProjectControllerName;
         }
 
         public bool ExistController(int ControllerId)

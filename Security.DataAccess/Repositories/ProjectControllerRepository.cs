@@ -104,17 +104,33 @@ namespace Security.DataAccess.Repositories
         public List<ProjectControllerListItem> Search(ProjectControllerSearchModel sm, out int RecordCount)
         {
             var q = from item in db.projectControllers select item;
+            if (sm.ProjectAreaID == -1)
+            {
+                sm.ProjectAreaID = null;
+            }
+
+            if (sm.ProjectAreaID != null)
+            {
+                q = q.Where(x => x.ProjectAreaID == sm.ProjectAreaID);
+            }
+
+            if (!string.IsNullOrEmpty(sm.PersianTitle))
+            {
+                q = q.Where(x => x.PersianTitle.StartsWith(sm.PersianTitle));
+            }
+
             if (!string.IsNullOrEmpty(sm.ProjectControllerName))
             {
-                q = q.Where(x => x.ProjectControllerName == sm.ProjectControllerName);
+                q = q.Where(x => x.ProjectControllerName.StartsWith(sm.ProjectControllerName));
             }
 
             RecordCount = q.Count();
             return q.Select(x => new ProjectControllerListItem
             {
                 ProjectControllerID = x.ProjectControllerID,
-                ProjectControllerName = sm.ProjectControllerName,
-                PersianTitle = sm.PersianTitle
+                ProjectControllerName = x.ProjectControllerName,
+                PersianTitle = x.PersianTitle,
+                ProjectAreaName = x.ProjectArea.AreaName
             }).OrderByDescending(x => x.ProjectControllerID).Skip(sm.PageIndex * sm.PageSize).Take(sm.PageSize).ToList();
         }
 

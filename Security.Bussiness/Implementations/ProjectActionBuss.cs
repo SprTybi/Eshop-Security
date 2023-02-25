@@ -46,8 +46,8 @@ namespace Security.Bussiness.Implementations
 
         public OperationResult Register(ProjectActionAddModel PA)
         {
-            throw new Exception("اینجا بگا رفتم نمیدونم چطوری اکشن های داخل کنترلر هارو بفهمم");
-           if(repo.ExistProjectActionNameInController(PA.ProjectControllerID,PA.ProjectActionName))
+            //throw new Exception("اینجا بگا رفتم نمیدونم چطوری اکشن های داخل کنترلر هارو بفهمم");
+            if (repo.ExistProjectActionNameInController(PA.ProjectControllerID, PA.ProjectActionName))
             {
                 return new OperationResult("Register failed", "ProjectAction").ToFail("ActionName already exist!!");
             }
@@ -56,7 +56,7 @@ namespace Security.Bussiness.Implementations
 
         public List<ProjectActionListItem> Search(ProjectActionSearchModel sm, out int RecordCount)
         {
-            if(sm.PageSize == 0)
+            if (sm.PageSize == 0)
             {
                 sm.PageSize = 20;
             }
@@ -65,7 +65,7 @@ namespace Security.Bussiness.Implementations
 
         public OperationResult update(ProjectActionUpdateModel PA)
         {
-            if (repo.ExistProjectActionName(PA.ProjectActionName,PA.ProjectActionID))
+            if (repo.ExistProjectActionName(PA.ProjectActionName, PA.ProjectActionID))
             {
                 return new OperationResult("Update failed", "ProjectAction").ToFail("ActionName already exist!!");
             }

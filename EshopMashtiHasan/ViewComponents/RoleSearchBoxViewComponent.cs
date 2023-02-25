@@ -23,10 +23,10 @@ namespace EshopMashtiHasan.ViewComponents
         //    ViewBag.drpRole = drpRole;
         //}
 
-        public IViewComponentResult Invoke()
+        public IViewComponentResult Invoke(RoleSearchModel sm)
         {
             //InflateDrpChoiseRole();
-            return View();
+            return View(sm);
         }
     }
 }

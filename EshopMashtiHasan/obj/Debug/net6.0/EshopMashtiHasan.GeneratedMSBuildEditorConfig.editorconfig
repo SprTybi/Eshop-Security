@@ -32,6 +32,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdEFjdGlvbk1hbmFnZW1lbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/Tahlil Dadeh/MVC/Session 15/EshopMashtiHasan/Eshop/EshopMashtiHasan/Views/ProjectAreaManagement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdEFyZWFNYW5hZ2VtZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Tahlil Dadeh/MVC/Session 15/EshopMashtiHasan/Eshop/EshopMashtiHasan/Views/ProjectControllerManagement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdENvbnRyb2xsZXJNYW5hZ2VtZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/Tahlil Dadeh/MVC/Session 15/EshopMashtiHasan/Eshop/EshopMashtiHasan/Views/Reflector/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVmbGVjdG9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -62,6 +70,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/Tahlil Dadeh/MVC/Session 15/EshopMashtiHasan/Eshop/EshopMashtiHasan/Views/Shared/Components/ProjectActionSearchBox/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvamVjdEFjdGlvblNlYXJjaEJveFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Tahlil Dadeh/MVC/Session 15/EshopMashtiHasan/Eshop/EshopMashtiHasan/Views/Shared/Components/ProjectAreaList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvamVjdEFyZWFMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Tahlil Dadeh/MVC/Session 15/EshopMashtiHasan/Eshop/EshopMashtiHasan/Views/Shared/Components/ProjectAreaRegister/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvamVjdEFyZWFSZWdpc3RlclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Tahlil Dadeh/MVC/Session 15/EshopMashtiHasan/Eshop/EshopMashtiHasan/Views/Shared/Components/ProjectAreaSearchBox/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvamVjdEFyZWFTZWFyY2hCb3hcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Tahlil Dadeh/MVC/Session 15/EshopMashtiHasan/Eshop/EshopMashtiHasan/Views/Shared/Components/ProjectControllerList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvamVjdENvbnRyb2xsZXJMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Tahlil Dadeh/MVC/Session 15/EshopMashtiHasan/Eshop/EshopMashtiHasan/Views/Shared/Components/ProjectControllerRegister/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvamVjdENvbnRyb2xsZXJSZWdpc3RlclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Tahlil Dadeh/MVC/Session 15/EshopMashtiHasan/Eshop/EshopMashtiHasan/Views/Shared/Components/ProjectControllerSearchBox/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvamVjdENvbnRyb2xsZXJTZWFyY2hCb3hcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Tahlil Dadeh/MVC/Session 15/EshopMashtiHasan/Eshop/EshopMashtiHasan/Views/Shared/Components/RegisterCategory/Default.cshtml]

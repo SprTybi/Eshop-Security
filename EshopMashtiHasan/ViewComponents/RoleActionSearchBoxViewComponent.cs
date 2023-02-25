@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Security.BussinessServiceContract.Services;
 using Security.Domain.DTO.ProjectAction;
 using Security.Domain.DTO.Role;
+using Security.Domain.DTO.RoleAction;
 using Security.Domain.DTO.User;
 
 namespace EshopMashtiHasan.ViewComponents
@@ -32,11 +33,11 @@ namespace EshopMashtiHasan.ViewComponents
             ViewBag.drpProjectAction = drpProjectAction;
         }
 
-        public IViewComponentResult Invoke()
+        public IViewComponentResult Invoke(RoleActionSearchModel sm)
         {
             InflateDrpChoiseProjectAction();
             InflateDrpChoiseRole();
-            return View();
+            return View(sm);
         }
     }
 }

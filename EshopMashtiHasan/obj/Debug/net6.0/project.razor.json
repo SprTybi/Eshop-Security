@@ -15129,14 +15129,29 @@
         }
       },
       {
-        "HashCode": 1438670570,
+        "HashCode": -1576366471,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__RoleSearchBoxViewComponentTagHelper",
         "AssemblyName": "EshopMashtiHasan",
         "CaseSensitive": false,
         "TagMatchingRules": [
           {
-            "TagName": "vc:role-search-box"
+            "TagName": "vc:role-search-box",
+            "Attributes": [
+              {
+                "Name": "sm"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "sm",
+            "TypeName": "Security.Domain.DTO.Role.RoleSearchModel",
+            "Metadata": {
+              "Common.PropertyName": "sm"
+            }
           }
         ],
         "Metadata": {
@@ -15195,14 +15210,29 @@
         }
       },
       {
-        "HashCode": 1728462718,
+        "HashCode": -105935445,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__RoleActionSearchBoxViewComponentTagHelper",
         "AssemblyName": "EshopMashtiHasan",
         "CaseSensitive": false,
         "TagMatchingRules": [
           {
-            "TagName": "vc:role-action-search-box"
+            "TagName": "vc:role-action-search-box",
+            "Attributes": [
+              {
+                "Name": "sm"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "sm",
+            "TypeName": "Security.Domain.DTO.RoleAction.RoleActionSearchModel",
+            "Metadata": {
+              "Common.PropertyName": "sm"
+            }
           }
         ],
         "Metadata": {
@@ -15275,6 +15305,87 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "__Generated__ProjectActionSearchBoxViewComponentTagHelper",
           "MVC.ViewComponent.Name": "ProjectActionSearchBox"
+        }
+      },
+      {
+        "HashCode": -107652093,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ProjectControllerListViewComponentTagHelper",
+        "AssemblyName": "EshopMashtiHasan",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:project-controller-list",
+            "Attributes": [
+              {
+                "Name": "sm"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "sm",
+            "TypeName": "Security.Domain.DTO.ProjectController.ProjectControllerSearchModel",
+            "Metadata": {
+              "Common.PropertyName": "sm"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ProjectControllerListViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ProjectControllerList"
+        }
+      },
+      {
+        "HashCode": -690097485,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ProjectControllerRegisterViewComponentTagHelper",
+        "AssemblyName": "EshopMashtiHasan",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:project-controller-register"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ProjectControllerRegisterViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ProjectControllerRegister"
+        }
+      },
+      {
+        "HashCode": 1368378591,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ProjectControllerSearchViewComponentTagHelper",
+        "AssemblyName": "EshopMashtiHasan",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:project-controller-search",
+            "Attributes": [
+              {
+                "Name": "sm"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "sm",
+            "TypeName": "Security.Domain.DTO.ProjectController.ProjectControllerSearchModel",
+            "Metadata": {
+              "Common.PropertyName": "sm"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ProjectControllerSearchViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ProjectControllerSearch"
         }
       },
       {
@@ -18813,6 +18924,11 @@
     {
       "FilePath": "f:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\Views\\Shared\\Components\\CategoryList\\Default.cshtml",
       "TargetPath": "Views\\Shared\\Components\\CategoryList\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\Tahlil Dadeh\\MVC\\Session 15\\EshopMashtiHasan\\Eshop\\EshopMashtiHasan\\Views\\ProjectControllerManagement\\Index.cshtml",
+      "TargetPath": "Views\\ProjectControllerManagement\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
