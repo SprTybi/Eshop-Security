@@ -18,7 +18,7 @@ namespace EshopMashtiHasan.Controllers
         }
 
         //show modal
-        public IActionResult AddNew()
+        public IActionResult AddForm()
         {
             return ViewComponent("ProjectActionRegister");
         }

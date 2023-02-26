@@ -35,7 +35,8 @@
                     @Html.DisplayFor(modelItem => item.ProjectControllerName)
                 </td>
                 <td>
-                    <span class="btn btn-danger btnDeleteProjectAction" data-id="@item.ProjectActionID" data-name="@item.ProjectActionName">Delete</span>
+                    <span class="btn btn-danger btnDeleteProjectAction" data-id="@item.ProjectActionID" data-name="@item.ProjectActionName" onclick="Delete(this)" data-action="@Url.Action("DeleteProjectAction","ProjectActionManagement")"
+                      data-action-BindGrid='@Url.Action("ProjectActionList","ProjectActionManegment")' data-action-RefreshGrid='@Url.Action("ProjectActionSearchBox","ProjectActionManegment")'>Delete</span>
                 </td>
             </tr>
         }
